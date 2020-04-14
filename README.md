@@ -1,6 +1,7 @@
 # MotDePasseGénérateurAléatoire
 Générateur de mot de passe aléatoire
 Il n'y a pas d'autentificateur . Ce n'est pas un outil prévu pour le vol.
+Pour utiliser, il suffit de taper python password.py ou python password.py -n 8. Le script n’a qu’un seul argument, -n (ou --num), qui est le nombre de mots à générer. En ajoutant plus de mots, un mot de passe sera plus difficile à BruteForce. La valeur par défaut est de 5 mots, alors que j’utilise personnellement 8 mots pour mon mot de passe.
 L’entropie d’un mot de passe est une mesure de la force qu’il est.
 L’entropie est liée au nombre de suppositions qu’un attaquant devrait tenter afin de forcer le mot de passe de quelqu’un.
 La définition précise de l’entropie est la base de journal 2 de l’espace de recherche.
