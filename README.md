@@ -1,4 +1,4 @@
-# MotDePasseG-n-rateurAl-atoire
+# MotDePasseGénérateurAléatoire
 Générateur de mot de passe aléatoire
 Il n'y a pas d'autentificateur . Ce n'est pas un outil prévu pour le vol.
 L’entropie d’un mot de passe est une mesure de la force qu’il est.
