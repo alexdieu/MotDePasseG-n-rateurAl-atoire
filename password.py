@@ -4,24 +4,19 @@ import argparse
 import random
 import math
 
-# extract words from words.txt
-# assumes each word is on its own line, no quotes/spaces/etc.
+# éxtrait des mots de mots.txt
 def words_from_file():
   f = open('mots.txt', 'r')
   lines = f.readlines()
   f.close()
 
-  # remove \n
   words = [line[:-1] for line in lines]
   return words
 
-# extracts a random word from a list of words
 def random_word(words):
-  # SystemRandom relies on /dev/urandom
   r = random.SystemRandom()
   return r.choice(words)
 
-# extracts n random words from a list of words
 def random_words(words, n):
   chosen = []
   for i in range(n):
